@@ -5,7 +5,7 @@ from database import conectar
 class AgendaApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("Agenda - CRUD com Tkinter e PostgreSQL")
+        self.root.title("AGENDA - CRUD com Tkinter e PostgreSQL")
         self.root.geometry("660x450") # Tamanho inicial da janela
         self.root.columnconfigure(0, weight=1, minsize=10)
         self.root.resizable(False, False) # mantem a janela no tamanho fixo
